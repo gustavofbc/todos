@@ -4,7 +4,7 @@ import TodoList from './TodoList';
  
 const  App = () => {
     return (
-        <div>
+        <div className='uk-container'>
             <Navbar></Navbar>
             <TodoList></TodoList>
             <h1>Meu primeiro App</h1>
