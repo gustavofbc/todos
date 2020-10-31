@@ -40,7 +40,7 @@ Para verificar o projeto funcionando, digite o comando:
 ```shell
 yarn start
 ```
-OBS: caso não abra uma guia em seu navegador, verifique o link [http://localhost:3000](http://localhost:3000)
+<b>OBS:</b> caso não abra uma guia em seu navegador, verifique o link [http://localhost:3000](http://localhost:3000)
 
 e voalá! :tada:
 
