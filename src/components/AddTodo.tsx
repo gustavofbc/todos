@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { TodoContextType } from '../contexts/TodoContextType';
-import { screen } from '@testing-library/react';
 
 //o yup é usado para efetuar as validações no formulário
 const schema = yup.object().shape({
