@@ -5,6 +5,11 @@ import TodoList from './TodoList';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import AddTodo from './AddTodo';
 
+import fundo from '../assets/images/fundo.svg'
+
+import '../global.css'
+import Footer from './Footer';
+
 const  App = () => {
     return (
         <TodoContext>
@@ -12,6 +17,11 @@ const  App = () => {
                 <Navbar></Navbar>
                 <br />
                 <div className='uk-container'>
+
+                    <div className="background-img">
+                        <img src={fundo} alt=""/>
+                    </div>
+                    
                     <Switch>
                         <Route path="/create">
                             <AddTodo></AddTodo>
@@ -23,8 +33,10 @@ const  App = () => {
                     </Switch>
                 </div>
             </Router>
+            <Footer></Footer>
         </TodoContext>
     );
 }
+
 
 export default App;

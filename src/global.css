@@ -1,0 +1,52 @@
+body, html {
+    margin:0;
+    padding:0;
+    border: none;
+  }
+  
+body {
+    background: url(assets//images/background.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+body, input, button, textarea, text {
+    font: 600 18px Nunito, sans-serif;
+}
+
+h4 {
+    color: #fff;
+    font: 600 22px Nunito, sans-serif;
+}
+
+.background-img{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-footer {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    transition: 2s;
+}
+
+.link-footer:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon-text-footer{
+    padding: 10px;
+}
