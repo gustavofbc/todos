@@ -32,11 +32,11 @@ const AddTodo = () => {
         <form onSubmit={handleSubmit<AddTodoForm>(onSubmit)}>
             <h4>Nova tarefa</h4>
             <div className="uk-margin uk-width-1-1">
-                <input type="text" name="title" id="title" placeholder="Nova tarefa..." className="uk-input" ref={register}/>
+                <input type="text" name="title" id="title" placeholder="Nova tarefa..." className="uk-input custom-input" ref={register}/>
                 <span><small><strong className="uk-text-danger">{errors.title?.message}</strong></small></span>
             </div>
             <div className="uk-width-1-1">
-                <button type="submit" className="uk-button uk-button-primary">Salvar</button>
+                <button type="submit" className="uk-button uk-button-secondary custom-button">Salvar</button>
             </div>
         </form>
     );

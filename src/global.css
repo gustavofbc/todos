@@ -66,7 +66,7 @@ h4 {
     border-radius: 8px;
     background-color: #17C77F;
     color: #fff;
-    transition: 2s;
+    transition: 1s;
 }
 
 .button-add:hover {
@@ -75,4 +75,14 @@ h4 {
 
 .item-table{
     color: orangered !important;
+}
+
+/* addTodo */
+.custom-button {
+    border-radius: 8px;
+    transition: 2s;
+}
+
+.custom-input {
+    border-radius: 8px;
 }
