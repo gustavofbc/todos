@@ -1,4 +1,7 @@
 # todos
+<h1 align="center">
+    <img alt="Todos" title="Todos" src="./src/assets/images/logoGithub.svg" />
+</h1>
 
 Esse projeto aborda a criando um App com React, TypeScript, Hooks, Context e Forms a fim de promover um vislumbre de possibilidades com o uso dessas ferramentas para inciantes. Em suma, o projeto é uma lista de tarefas utilizando o Local Storage como meio de armazenamento destas.
 
