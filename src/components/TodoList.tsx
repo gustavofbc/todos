@@ -8,11 +8,11 @@ const TodoList = () => {
 
     return(
        <table className='uk-table'>
-           <caption>Lista de tarefas</caption>
+           {/* <caption>Lista de tarefas</caption> */}
            <thead>
                <tr>
                    <th>#</th>
-                   <th>Tarefa</th>
+                   <th className="item-table">Tarefa</th>
                    <th></th>
                </tr>
            </thead>

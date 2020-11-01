@@ -27,7 +27,7 @@ const  App = () => {
                             <AddTodo></AddTodo>
                         </Route>
                         <Route path="/">
-                            <h4>Minha lista de tarefas</h4>
+                            <h4>Minha lista de tarefas:</h4>
                             <TodoList></TodoList>
                         </Route>
                     </Switch>

@@ -15,8 +15,8 @@ const Navbar = () => {
                 <div className='uk-navbar-right'>
                     <ul className='uk-navbar-nav'>
                         <li>
-                            <Link to="/create">
-                                <span uk-icon="icon: plus; ratio: 1.2"></span>
+                            <Link to="/create" >
+                                <span className="button-add" uk-icon="icon: plus; ratio: 1.2;"></span>
                             </Link>
                         </li>
                     </ul>
